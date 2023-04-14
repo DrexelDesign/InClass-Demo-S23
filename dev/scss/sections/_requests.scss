@@ -3,5 +3,12 @@
 ============= */
 
 #requests{
-    
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". request .";
+
+    >div{
+        grid-area: request;
+        border: 1px solid purple;
+    }
 }

@@ -3,5 +3,12 @@
 ============= */
 
 #partners{
-    
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". partners .";
+
+    >div{
+        grid-area: partners;
+        border: 1px solid red;
+    }
 }
