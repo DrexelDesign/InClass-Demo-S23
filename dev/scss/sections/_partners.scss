@@ -7,6 +7,10 @@
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". partners .";
 
+    @include xxl{
+        grid-template-columns: auto 1440px auto;
+    }
+
     >div{
         grid-area: partners;
         
@@ -39,26 +43,38 @@
             }
 
             #p1{
-                grid-area: p1;
+                @include xl{
+                    grid-area: p1;
+                }
             }
 
             #p2{
-                grid-area: p2;
+                @include xl{
+                    grid-area: p2;
+                }
             }
 
             #p3{
-                grid-area: p3;
+                @include xl{
+                    grid-area: p3;
+                }
             }
             #p4{
-                grid-area: p4;
+                @include xl{
+                    grid-area: p4;
+                }
             }
 
             #p5{
-                grid-area: p5;
+                @include xl{
+                    grid-area: p5;
+                }
             }
 
             #p6{
-                grid-area: p6;
+                @include xl{
+                    grid-area: p6;
+                }
             }
         }
     }

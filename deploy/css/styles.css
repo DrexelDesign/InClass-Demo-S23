@@ -390,8 +390,14 @@ textarea {
     grid-template-columns: 12% auto 12%;
   }
 }
+@media (min-width: 1440px) {
+  #about {
+    grid-template-columns: auto 1440px auto;
+  }
+}
 #about > div {
   grid-area: about;
+  background-color: lightseagreen;
 }
 @media (min-width: 1200px) {
   #about > div {
@@ -408,6 +414,11 @@ textarea {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". partners .";
+}
+@media (min-width: 1440px) {
+  #partners {
+    grid-template-columns: auto 1440px auto;
+  }
 }
 #partners > div {
   grid-area: partners;
@@ -436,23 +447,35 @@ textarea {
   padding-bottom: 100px;
   text-align: center;
 }
-#partners > div ul #p1 {
-  grid-area: p1;
+@media (min-width: 1200px) {
+  #partners > div ul #p1 {
+    grid-area: p1;
+  }
 }
-#partners > div ul #p2 {
-  grid-area: p2;
+@media (min-width: 1200px) {
+  #partners > div ul #p2 {
+    grid-area: p2;
+  }
 }
-#partners > div ul #p3 {
-  grid-area: p3;
+@media (min-width: 1200px) {
+  #partners > div ul #p3 {
+    grid-area: p3;
+  }
 }
-#partners > div ul #p4 {
-  grid-area: p4;
+@media (min-width: 1200px) {
+  #partners > div ul #p4 {
+    grid-area: p4;
+  }
 }
-#partners > div ul #p5 {
-  grid-area: p5;
+@media (min-width: 1200px) {
+  #partners > div ul #p5 {
+    grid-area: p5;
+  }
 }
-#partners > div ul #p6 {
-  grid-area: p6;
+@media (min-width: 1200px) {
+  #partners > div ul #p6 {
+    grid-area: p6;
+  }
 }
 
 /* =============
@@ -468,7 +491,17 @@ textarea {
     grid-template-columns: 12% auto 12%;
   }
 }
+@media (min-width: 1200px) {
+  #requests {
+    grid-template-columns: 20% auto 20%;
+  }
+}
+@media (min-width: 1440px) {
+  #requests {
+    grid-template-columns: auto 1440px auto;
+  }
+}
 #requests > div {
   grid-area: request;
-  border: 1px solid purple;
+  background-color: purple;
 }

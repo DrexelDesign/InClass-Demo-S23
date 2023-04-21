@@ -11,8 +11,17 @@
         grid-template-columns: 12% auto 12%;
     }
 
+    @include xl{
+        grid-template-columns: 20% auto 20%;
+    }
+
+    @include xxl{
+        grid-template-columns: auto 1440px auto;
+    }
+
+
     >div{
         grid-area: request;
-        border: 1px solid purple;
+        background-color: purple;
     }
 }
