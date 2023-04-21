@@ -7,6 +7,10 @@
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". request .";
 
+    @include md{
+        grid-template-columns: 12% auto 12%;
+    }
+
     >div{
         grid-area: request;
         border: 1px solid purple;

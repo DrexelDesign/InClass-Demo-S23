@@ -9,6 +9,27 @@
 
     >div{
         grid-area: partners;
-        border: 1px solid red;
+        
+
+        ul{
+            margin: 0;
+            padding: 0;
+            display: grid;
+            gap: 24px;
+
+            @include md{
+                grid-template-columns: repeat(2, 1fr);
+                // grid-template-columns: 50% 50%;
+                // grid-template-columns: 50% auto;
+            }
+
+            li{
+                list-style: none;
+               background-color: deeppink;
+                padding-top: 100px;
+                padding-bottom: 100px;
+                text-align: center;
+            }
+        }
     }
 }

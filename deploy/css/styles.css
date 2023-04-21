@@ -385,6 +385,11 @@ textarea {
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". about .";
 }
+@media (min-width: 768px) {
+  #about {
+    grid-template-columns: 12% auto 12%;
+  }
+}
 #about > div {
   grid-area: about;
 }
@@ -399,7 +404,24 @@ textarea {
 }
 #partners > div {
   grid-area: partners;
-  border: 1px solid red;
+}
+#partners > div ul {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 24px;
+}
+@media (min-width: 768px) {
+  #partners > div ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+#partners > div ul li {
+  list-style: none;
+  background-color: deeppink;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
 }
 
 /* =============
@@ -409,6 +431,11 @@ textarea {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". request .";
+}
+@media (min-width: 768px) {
+  #requests {
+    grid-template-columns: 12% auto 12%;
+  }
 }
 #requests > div {
   grid-area: request;
