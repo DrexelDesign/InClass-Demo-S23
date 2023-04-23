@@ -7,14 +7,14 @@
       "uuidString" : "2F66EE1A-F279-4304-A82B-AC408D0A71EE"
     }
   ],
-  "creatorBuild" : "34472",
+  "creatorBuild" : "34434",
   "files" : {
-    "\/assets\/about-left.jpg" : {
+    "\/Assets\/about-left.jpg" : {
       "ft" : 16384,
       "iS" : 240900,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/assets\/about-left.jpg",
+      "oAP" : "\/Assets\/about-left.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -22,12 +22,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/about.jpg" : {
+    "\/Assets\/about.jpg" : {
       "ft" : 16384,
       "iS" : 252641,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/assets\/about.jpg",
+      "oAP" : "\/Assets\/about.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -35,52 +35,52 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/Andriod.svg" : {
+    "\/Assets\/Andriod.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/assets\/Andriod.svg",
+      "oAP" : "\/Assets\/Andriod.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/assets\/Apple.svg" : {
+    "\/Assets\/Apple.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/assets\/Apple.svg",
+      "oAP" : "\/Assets\/Apple.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/assets\/aws.svg" : {
+    "\/Assets\/aws.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/assets\/aws.svg",
+      "oAP" : "\/Assets\/aws.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/assets\/Google.svg" : {
+    "\/Assets\/Google.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/assets\/Google.svg",
+      "oAP" : "\/Assets\/Google.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/assets\/hero-2.jpg" : {
+    "\/Assets\/hero-2.jpg" : {
       "ft" : 16384,
       "iS" : 1003073,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/assets\/hero-2.jpg",
+      "oAP" : "\/Assets\/hero-2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -88,12 +88,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/hero.jpg" : {
+    "\/Assets\/hero.jpg" : {
       "ft" : 16384,
       "iS" : 479600,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/assets\/hero.jpg",
+      "oAP" : "\/Assets\/hero.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -101,39 +101,39 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/In-class-S23.fig" : {
+    "\/Assets\/In-class-S23.fig" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/assets\/In-class-S23.fig",
+      "oAP" : "\/Assets\/In-class-S23.fig",
       "oF" : 0
     },
-    "\/assets\/logo.svg" : {
+    "\/Assets\/logo.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/assets\/logo.svg",
+      "oAP" : "\/Assets\/logo.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/assets\/MS.svg" : {
+    "\/Assets\/MS.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/assets\/MS.svg",
+      "oAP" : "\/Assets\/MS.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/assets\/reddit.svg" : {
+    "\/Assets\/reddit.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/assets\/reddit.svg",
+      "oAP" : "\/Assets\/reddit.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -1123,10 +1123,6 @@
         "active" : 0,
         "optionString" : "'always', {exceptAfterSingleLine: false}"
       },
-      "logical-assignment-operators" : {
-        "active" : 0,
-        "optionString" : "'always',  {'enforceForIfStatements': false}"
-      },
       "max-classes-per-file" : {
         "active" : 0,
         "optionString" : "{'ignoreExpressions': false, 'max': 1}"
@@ -1287,9 +1283,6 @@
       "no-empty-pattern" : {
         "active" : 1
       },
-      "no-empty-static-block" : {
-        "active" : 0
-      },
       "no-eq-null" : {
         "active" : 0
       },
@@ -1428,9 +1421,6 @@
         "active" : 0
       },
       "no-new-func" : {
-        "active" : 0
-      },
-      "no-new-native-nonconstructor" : {
         "active" : 0
       },
       "no-new-object" : {
@@ -2173,7 +2163,6 @@
       "ENVIRONMENT:::$NODE_ENV"
     ],
     "rollupTreeshakingEnabled" : 1,
-    "rollupTreeshakingModuleSideEffects" : 1,
     "skippedFoldersString" : "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
     "sourceFolderName" : "source",
     "susyVersion" : 3,
