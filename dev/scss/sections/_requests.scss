@@ -16,7 +16,7 @@
     }
 
     @include xxl{
-        grid-template-columns: auto 1440px auto;
+        grid-template-columns: auto 700px auto;
     }
 
 
@@ -33,18 +33,36 @@
 
         form{
             margin-top: 32px;
-
+            // display: flex;
+            // flex-direction: column;
+            display: grid;
+            
             @include md{
                 margin-top: 24px;
+                grid-template-columns: auto 30%;
             }
 
             @include lg{
                 margin-top: 32px;
+                grid-template-columns: auto 20%;
             }
+
+            @include xl{
+                grid-template-columns: auto 20%;
+            }
+
+            @include xxl{
+                grid-template-columns: auto 15%;
+            }
+
+
             input{
                 border: none;
                 border: 1px solid var(--gray);
                 padding: 15px 0 15px 8px;
+                @include md{
+                    border-radius: 6px 0px 0px 6px;
+                }
             }
 
 
@@ -54,6 +72,17 @@
                 color: white;
                 border: none;
                 padding: 16px 24px;
+                margin-left: auto;
+                margin-top: 16px;
+                border-radius: 6px;
+
+                @include md{
+                    margin-left: initial;
+                    padding: 0px 24px;
+                    height: 100%;
+                    margin-top: 0;
+                    border-radius: 0px 6px 6px 0px;
+                }
             }
         }
     }

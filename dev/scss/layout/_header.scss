@@ -2,10 +2,25 @@
     Header
 ============= */
 header{
+    padding: 16px 0;
+
+    @include xxl{
+        padding: 24px 0;
+    }
+
+
     div{
+        display: flex;
+
+        button{
+            border: none;
+            background-color: transparent;
+        }
 
         nav{
+            margin-left: auto;
             ul{
+                display: flex;
                 li{
                     a{
                         color: var(--gray);

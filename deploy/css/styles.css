@@ -333,7 +333,13 @@ template {
 /* =============
     Base
 ============= */
+ul {
+  padding: 0;
+  margin: 0;
+}
 ul li {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 
@@ -394,6 +400,27 @@ textarea {
 /* =============
     Header
 ============= */
+header {
+  padding: 16px 0;
+}
+@media (min-width: 1440px) {
+  header {
+    padding: 24px 0;
+  }
+}
+header div {
+  display: flex;
+}
+header div button {
+  border: none;
+  background-color: transparent;
+}
+header div nav {
+  margin-left: auto;
+}
+header div nav ul {
+  display: flex;
+}
 header div nav ul li a {
   color: var(--gray);
 }
@@ -425,20 +452,33 @@ header div nav ul li a {
 }
 #about > div {
   grid-area: about;
-  background-color: lightseagreen;
 }
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
   #about > div {
     display: grid;
     grid-template-columns: 50% auto;
-    gap: 136px;
   }
 }
-#about > div h1 {
+#about > div aside {
+  margin-bottom: 24px;
+}
+@media (min-width: 768px) {
+  #about > div aside {
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 768px) {
+  #about > div section {
+    display: flex;
+    align-items: center;
+    padding-left: 136px;
+  }
+}
+#about > div section h1 {
   margin-bottom: 16px;
 }
 @media (min-width: 1024px) {
-  #about > div h1 {
+  #about > div section h1 {
     margin-bottom: 24px;
   }
 }
@@ -460,29 +500,32 @@ header div nav ul li a {
   grid-area: partners;
 }
 #partners > div ul {
-  margin: 0;
-  padding: 0;
+  margin-top: 24px;
   display: grid;
+  grid-template-rows: repeat(6, 220px);
   gap: 24px;
 }
 @media (min-width: 768px) {
   #partners > div ul {
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 220px);
+    margin-top: 32px;
   }
 }
 @media (min-width: 1200px) {
   #partners > div ul {
     grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 220px);
     grid-template-areas: "p1 p1 p1 p2 p2 p3" "p4 p5 p5 p5 p6 p6";
   }
 }
 #partners > div ul li {
   list-style: none;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  text-align: center;
   border: 1px solid var(--gray);
   border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 @media (min-width: 1200px) {
   #partners > div ul #p1 {
@@ -535,7 +578,7 @@ header div nav ul li a {
 }
 @media (min-width: 1440px) {
   #requests {
-    grid-template-columns: auto 1440px auto;
+    grid-template-columns: auto 700px auto;
   }
 }
 #requests > div {
@@ -551,15 +594,28 @@ header div nav ul li a {
 }
 #requests > div form {
   margin-top: 32px;
+  display: grid;
 }
 @media (min-width: 768px) {
   #requests > div form {
     margin-top: 24px;
+    grid-template-columns: auto 30%;
   }
 }
 @media (min-width: 1024px) {
   #requests > div form {
     margin-top: 32px;
+    grid-template-columns: auto 20%;
+  }
+}
+@media (min-width: 1200px) {
+  #requests > div form {
+    grid-template-columns: auto 20%;
+  }
+}
+@media (min-width: 1440px) {
+  #requests > div form {
+    grid-template-columns: auto 15%;
   }
 }
 #requests > div form input {
@@ -567,9 +623,26 @@ header div nav ul li a {
   border: 1px solid var(--gray);
   padding: 15px 0 15px 8px;
 }
+@media (min-width: 768px) {
+  #requests > div form input {
+    border-radius: 6px 0px 0px 6px;
+  }
+}
 #requests > div form button {
   background-color: var(--purple);
   color: white;
   border: none;
   padding: 16px 24px;
+  margin-left: auto;
+  margin-top: 16px;
+  border-radius: 6px;
+}
+@media (min-width: 768px) {
+  #requests > div form button {
+    margin-left: initial;
+    padding: 0px 24px;
+    height: 100%;
+    margin-top: 0;
+    border-radius: 0px 6px 6px 0px;
+  }
 }
