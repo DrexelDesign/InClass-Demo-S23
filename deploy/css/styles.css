@@ -562,7 +562,14 @@ header div nav ul li a {
     margin-top: 32px;
   }
 }
+#requests > div form input {
+  border: none;
+  border: 1px solid var(--gray);
+  padding: 15px 0 15px 8px;
+}
 #requests > div form button {
   background-color: var(--purple);
   color: white;
+  border: none;
+  padding: 16px 24px;
 }
