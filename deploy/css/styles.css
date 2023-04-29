@@ -352,15 +352,6 @@ ul li {
   }
 }
 
-.header-footer-grid {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". header-footer .";
-}
-.header-footer-grid > div {
-  grid-area: header-footer;
-}
-
 .large-images {
   width: 100%;
 }
@@ -428,6 +419,33 @@ header div nav ul li a {
 /* =============
     Footer
 ============= */
+footer {
+  padding: 0 16px;
+}
+footer > div {
+  display: grid;
+  grid-template-columns: 50% auto;
+  grid-template-areas: "fl fc" "fl fm";
+}
+@media (min-width: 768px) {
+  footer > div {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "fl fm fc";
+  }
+}
+footer > div #fl {
+  grid-area: fl;
+}
+footer > div #fc {
+  grid-area: fc;
+}
+footer > div #fm {
+  grid-area: fm;
+}
+footer > div #fm span {
+  color: var(--purple);
+}
+
 /* =============
     Heroes
 ============= */
