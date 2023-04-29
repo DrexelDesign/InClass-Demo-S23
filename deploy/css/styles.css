@@ -8,7 +8,10 @@ html {
 
 /* ---------------- Media Queries ---------------- */
 /* =============
-    Variables
+    SCSS Variables
+============= */
+/* =============
+    CSS Variables
 ============= */
 :root {
   --black: #000000;
@@ -388,11 +391,13 @@ textarea {
 @media (min-width: 768px) {
   #about {
     grid-template-columns: 12% auto 12%;
+    background-color: var(--black);
   }
 }
 @media (min-width: 1440px) {
   #about {
     grid-template-columns: auto 1440px auto;
+    background-color: var(--black);
   }
 }
 #about > div {

@@ -1,5 +1,5 @@
 /* =============
-    Variables
+    SCSS Variables
 ============= */
 
 // Define the breakpoints
@@ -19,8 +19,11 @@ $screen-xl-min: 1200px;
 $screen-xxl-min: 1440px;
 
 
-// Colors vars
+/* =============
+    CSS Variables
+============= */
 :root {
+  // Colors vars
   --black: #000000;
   --white: #ffffff;
 }
