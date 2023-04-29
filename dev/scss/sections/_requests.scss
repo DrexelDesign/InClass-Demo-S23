@@ -22,6 +22,32 @@
 
     >div{
         grid-area: request;
-        background-color: purple;
+
+        h1{
+            margin-bottom: 16px;
+
+            @include lg{
+                margin-bottom: 24px;
+            }
+        }
+
+        form{
+            margin-top: 32px;
+
+            @include md{
+                margin-top: 24px;
+            }
+
+            @include lg{
+                margin-top: 32px;
+            }
+
+
+            button{
+                // background-color: #5B61A2;
+                background-color: var(--purple);
+                color: white;
+            }
+        }
     }
 }

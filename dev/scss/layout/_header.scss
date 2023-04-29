@@ -2,4 +2,16 @@
     Header
 ============= */
 header{
+    div{
+
+        nav{
+            ul{
+                li{
+                    a{
+                        color: var(--gray);
+                    }
+                }
+            }
+        }
+    }
 }
