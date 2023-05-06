@@ -65,6 +65,19 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/assets\/clark-tibbs-oqStl2L5oxI-unsplash.jpg" : {
+      "ft" : 16384,
+      "iS" : 258613,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/clark-tibbs-oqStl2L5oxI-unsplash.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/Google.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -74,6 +87,19 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/assets\/helena-lopes-e3OUQGT9bWU-unsplash.jpg" : {
+      "ft" : 16384,
+      "iS" : 2351615,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/helena-lopes-e3OUQGT9bWU-unsplash.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/assets\/hero-2.jpg" : {
       "ft" : 16384,
@@ -118,6 +144,19 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/assets\/mario-gogh-VBLHICVh-lI-unsplash.jpg" : {
+      "ft" : 16384,
+      "iS" : 3901994,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/mario-gogh-VBLHICVh-lI-unsplash.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/assets\/MS.svg" : {
       "ft" : 2097152,
