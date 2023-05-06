@@ -344,11 +344,11 @@ ul li {
 }
 
 .content-spacing {
-  padding-top: 32px;
+  margin-top: 32px;
 }
 @media (min-width: 768px) {
   .content-spacing {
-    padding-top: 64px;
+    margin-top: 64px;
   }
 }
 
@@ -450,6 +450,23 @@ footer > div #fm span {
     Heroes
 ============= */
 /* ------ Hero 2 -----*/
+#hero-2 {
+  background-image: url("../img/heroes/hero-2.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 30vh;
+}
+@media (min-width: 768px) {
+  #hero-2 {
+    height: 50vh;
+  }
+}
+@media (min-width: 1024px) {
+  #hero-2 {
+    height: 70vh;
+  }
+}
+
 /* =============
     About
 ============= */
@@ -463,15 +480,15 @@ footer > div #fm span {
     grid-template-columns: 12% auto 12%;
   }
 }
-@media (min-width: 1440px) {
+@media (min-width: 1200px) {
   #about {
-    grid-template-columns: auto 1440px auto;
+    grid-template-columns: auto 1200px auto;
   }
 }
 #about > div {
   grid-area: about;
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   #about > div {
     display: grid;
     grid-template-columns: 50% auto;
@@ -483,20 +500,41 @@ footer > div #fm span {
 @media (min-width: 768px) {
   #about > div aside {
     margin-bottom: 0;
+    display: flex;
+    justify-content: center;
   }
 }
+#about > div aside #about-circle {
+  width: 360px;
+  height: 360px;
+  border-radius: 100%;
+  overflow: hidden;
+}
 @media (min-width: 768px) {
-  #about > div section {
+  #about > div aside #about-circle {
+    width: 560px;
+    height: 560px;
+  }
+}
+#about > div aside #about-circle div {
+  background-image: url("../img/about/about-left.jpg");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+@media (min-width: 768px) {
+  #about > div #about-right {
     display: flex;
     align-items: center;
     padding-left: 136px;
   }
 }
-#about > div section h1 {
+#about > div #about-right h1 {
   margin-bottom: 16px;
 }
 @media (min-width: 1024px) {
-  #about > div section h1 {
+  #about > div #about-right h1 {
     margin-bottom: 24px;
   }
 }

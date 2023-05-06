@@ -9,5 +9,20 @@
 
 /* ------ Hero 2 -----*/
 #hero-2{
+    background-image: url("../img/heroes/hero-2.jpg");
+    // X value could be left | center | right
+    // Y value could be top | center | bottom
+    // background-position: 50% 100px;
+    background-position: center;
+    background-size: cover;
+    // background-repeat: no-repeat;
+    height: 30vh;
 
+    @include md{
+        height: 50vh;
+    }
+
+    @include lg{
+        height: 70vh;
+    }
 }
