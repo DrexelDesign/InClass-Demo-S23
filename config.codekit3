@@ -9,12 +9,12 @@
   ],
   "creatorBuild" : "34484",
   "files" : {
-    "\/assets\/about-left.jpg" : {
+    "\/Assets\/about-left.jpg" : {
       "ft" : 16384,
       "iS" : 240900,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/assets\/about-left.jpg",
+      "oAP" : "\/Assets\/about-left.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -22,12 +22,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/about.jpg" : {
+    "\/Assets\/about.jpg" : {
       "ft" : 16384,
       "iS" : 252641,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/assets\/about.jpg",
+      "oAP" : "\/Assets\/about.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -35,42 +35,42 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/Andriod.svg" : {
+    "\/Assets\/Andriod.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/assets\/Andriod.svg",
+      "oAP" : "\/Assets\/Andriod.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/assets\/Apple.svg" : {
+    "\/Assets\/Apple.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/assets\/Apple.svg",
+      "oAP" : "\/Assets\/Apple.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/assets\/aws.svg" : {
+    "\/Assets\/aws.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/assets\/aws.svg",
+      "oAP" : "\/Assets\/aws.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/assets\/clark-tibbs-oqStl2L5oxI-unsplash.jpg" : {
+    "\/Assets\/clark-tibbs-oqStl2L5oxI-unsplash.jpg" : {
       "ft" : 16384,
       "iS" : 258613,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/assets\/clark-tibbs-oqStl2L5oxI-unsplash.jpg",
+      "oAP" : "\/Assets\/clark-tibbs-oqStl2L5oxI-unsplash.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -78,22 +78,22 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/Google.svg" : {
+    "\/Assets\/Google.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/assets\/Google.svg",
+      "oAP" : "\/Assets\/Google.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/assets\/helena-lopes-e3OUQGT9bWU-unsplash.jpg" : {
+    "\/Assets\/helena-lopes-e3OUQGT9bWU-unsplash.jpg" : {
       "ft" : 16384,
       "iS" : 2351615,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/assets\/helena-lopes-e3OUQGT9bWU-unsplash.jpg",
+      "oAP" : "\/Assets\/helena-lopes-e3OUQGT9bWU-unsplash.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -101,12 +101,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/hero-2.jpg" : {
+    "\/Assets\/hero-2.jpg" : {
       "ft" : 16384,
       "iS" : 1003073,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/assets\/hero-2.jpg",
+      "oAP" : "\/Assets\/hero-2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -114,12 +114,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/hero.jpg" : {
+    "\/Assets\/hero.jpg" : {
       "ft" : 16384,
       "iS" : 479600,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/assets\/hero.jpg",
+      "oAP" : "\/Assets\/hero.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -127,30 +127,30 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/In-class-S23.fig" : {
+    "\/Assets\/In-class-S23.fig" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/assets\/In-class-S23.fig",
+      "oAP" : "\/Assets\/In-class-S23.fig",
       "oF" : 0
     },
-    "\/assets\/logo.svg" : {
+    "\/Assets\/logo.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/assets\/logo.svg",
+      "oAP" : "\/Assets\/logo.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/assets\/mario-gogh-VBLHICVh-lI-unsplash.jpg" : {
+    "\/Assets\/mario-gogh-VBLHICVh-lI-unsplash.jpg" : {
       "ft" : 16384,
       "iS" : 3901994,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/assets\/mario-gogh-VBLHICVh-lI-unsplash.jpg",
+      "oAP" : "\/Assets\/mario-gogh-VBLHICVh-lI-unsplash.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -158,21 +158,21 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/MS.svg" : {
+    "\/Assets\/MS.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/assets\/MS.svg",
+      "oAP" : "\/Assets\/MS.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/assets\/reddit.svg" : {
+    "\/Assets\/reddit.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/assets\/reddit.svg",
+      "oAP" : "\/Assets\/reddit.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -192,7 +192,7 @@
     },
     "\/deploy\/img\/about\/about-left.jpg" : {
       "ft" : 16384,
-      "iS" : 240900,
+      "iS" : 59763,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/about\/about-left.jpg",
@@ -215,7 +215,7 @@
     },
     "\/deploy\/img\/heroes\/hero-2.jpg" : {
       "ft" : 16384,
-      "iS" : 1003073,
+      "iS" : 339184,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/heroes\/hero-2.jpg",
@@ -228,7 +228,7 @@
     },
     "\/deploy\/img\/heroes\/hero.jpg" : {
       "ft" : 16384,
-      "iS" : 479600,
+      "iS" : 157992,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/heroes\/hero.jpg",
