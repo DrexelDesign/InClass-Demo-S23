@@ -192,7 +192,7 @@
     },
     "\/deploy\/img\/about\/about-left.jpg" : {
       "ft" : 16384,
-      "iS" : 59763,
+      "iS" : 26602,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/about\/about-left.jpg",
@@ -215,7 +215,7 @@
     },
     "\/deploy\/img\/heroes\/hero-2.jpg" : {
       "ft" : 16384,
-      "iS" : 339184,
+      "iS" : 258483,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/heroes\/hero-2.jpg",
@@ -228,7 +228,7 @@
     },
     "\/deploy\/img\/heroes\/hero.jpg" : {
       "ft" : 16384,
-      "iS" : 157992,
+      "iS" : 185215,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/heroes\/hero.jpg",
