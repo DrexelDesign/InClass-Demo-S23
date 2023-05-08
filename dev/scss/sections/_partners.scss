@@ -6,6 +6,7 @@
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". partners .";
+    text-align: center;
 
     @include xxl{
         grid-template-columns: auto 1440px auto;
@@ -13,6 +14,19 @@
 
     >div{
         grid-area: partners;
+
+        h2{
+            font-weight: 400;
+            font-size: rem-calc(16);
+
+            @include md{
+                font-size: rem-calc(24);
+            }
+
+            @include lg{
+                font-size: rem-calc(32);
+            }
+        }
         
 
         ul{

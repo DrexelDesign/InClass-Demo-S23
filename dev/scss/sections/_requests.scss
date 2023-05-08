@@ -6,6 +6,7 @@
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". request .";
+    text-align: center;
 
     @include md{
         grid-template-columns: 12% auto 12%;
@@ -31,10 +32,12 @@
             }
         }
 
+        p{
+            font-size: rem-calc(24);
+        }
+
         form{
             margin-top: 32px;
-            // display: flex;
-            // flex-direction: column;
             display: grid;
             
             @include md{
@@ -45,14 +48,15 @@
             @include lg{
                 margin-top: 32px;
                 grid-template-columns: auto 20%;
+                box-sizing: border-box;
             }
 
             @include xl{
-                grid-template-columns: auto 20%;
+                grid-template-columns: auto 23%;
             }
 
             @include xxl{
-                grid-template-columns: auto 15%;
+                // grid-template-columns: auto 15%;
             }
 
 

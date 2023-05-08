@@ -1,6 +1,24 @@
 /* =============
     Typography
 ============= */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-titles{
+    font-size: rem-calc(40);
+    font-weight: 400;
+
+    @include md{
+        font-size: rem-calc(44);
+    }
+
+    @include lg{
+        font-size: rem-calc(56);
+    }
+}
+
+
 h1,h2,h3,h4,h5,p{
     margin: 0;
     padding: 0;

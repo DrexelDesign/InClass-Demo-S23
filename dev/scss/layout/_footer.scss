@@ -3,6 +3,8 @@
 ============= */
 footer{
     padding: 0 16px;
+    padding-bottom: 32px;
+    font-size: rem-calc(12);
 
     >div{
         display: grid;
@@ -18,14 +20,26 @@ footer{
 
         #fl{
             grid-area: fl;
+            text-align: right;
         }
 
         #fc{
             grid-area: fc;
+            text-align: right;
+            margin-bottom: 8px;
+
+            @include md{
+                margin-bottom: 0;
+            }
         }
 
         #fm{
             grid-area: fm;
+            text-align: right;
+
+            @include md{
+                text-align: center;
+            }
 
             span{
                 color: var(--purple);
