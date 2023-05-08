@@ -348,11 +348,11 @@ a {
 }
 
 .content-spacing {
-  padding-top: 32px;
+  margin-top: 32px;
 }
 @media (min-width: 768px) {
   .content-spacing {
-    padding-top: 64px;
+    margin-top: 64px;
   }
 }
 
@@ -465,7 +465,41 @@ footer > div #fm span {
 /* =============
     Heroes
 ============= */
+#hero img {
+  line-height: 0;
+  display: block;
+}
+
 /* ------ Hero 2 -----*/
+#hero-2 {
+  background-image: url("../img/heroes/hero-2.jpg");
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  #hero-2 {
+    height: 60vh;
+    background-position: left bottom;
+  }
+}
+@media (min-width: 1200px) {
+  #hero-2 {
+    height: 70vh;
+  }
+}
+#hero-2 i {
+  color: var(--white);
+  font-size: 3.75rem;
+}
+@media (min-width: 1024px) {
+  #hero-2 i {
+    font-size: 7.5rem;
+  }
+}
+
 /* =============
     About
 ============= */

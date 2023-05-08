@@ -16,10 +16,10 @@ a{
 }
 
 .content-spacing{
-    padding-top: 32px;
+    margin-top: 32px;
 
     @include md{
-        padding-top: 64px;
+        margin-top: 64px;
     }
 }
 
