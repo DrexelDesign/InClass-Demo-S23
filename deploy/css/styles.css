@@ -343,6 +343,10 @@ ul li {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .content-spacing {
   padding-top: 32px;
 }
@@ -388,6 +392,18 @@ textarea {
 /* =============
     Navigation
 ============= */
+nav ul li a:link, nav ul li a:visited {
+  padding: 24px 36px;
+  border: 1px solid var(--gray);
+  color: var(--gray);
+  border-radius: 6px;
+  transition: 0.25s;
+}
+nav ul li a:link:hover, nav ul li a:link:active, nav ul li a:visited:hover, nav ul li a:visited:active {
+  background-color: var(--gray);
+  color: var(--white);
+}
+
 /* =============
     Header
 ============= */

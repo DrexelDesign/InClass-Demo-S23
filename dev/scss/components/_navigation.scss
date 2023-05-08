@@ -1,3 +1,22 @@
 /* =============
     Navigation
 ============= */
+
+nav{
+    ul{
+        li{
+            a:link, a:visited{
+                padding: 24px 36px;
+                border: 1px solid var(--gray);
+                color: var(--gray);
+                border-radius: 6px;
+                transition: 0.25s;
+
+                &:hover, &:active{
+                    background-color: var(--gray);
+                    color: var(--white);
+                }
+            }
+        }
+    }
+}
