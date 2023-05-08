@@ -15,10 +15,11 @@
         grid-template-columns: auto 1440px auto;
     }
 
-    >div{
+    >div {
         grid-area: about;
 
-        @include md{
+
+        @include lg{
             display: grid;
             grid-template-columns: 50% auto;
         }
@@ -29,9 +30,19 @@
             @include md {
                 margin-bottom: 0;
             }
+
+            #about-bg-img{
+                    background-image: url("../img/about/about-left.jpg");
+                    background-position: center bottom;
+                    background-size: cover;
+                    width: 100%;
+                    padding-bottom: 100%;
+                    border-radius: 100%;
+            }
+            
         }
 
-        section{
+        #about-info{
             @include md{
                 display: flex;
                 align-items: center;
@@ -46,7 +57,5 @@
                 }
             }
         }
-
-        
     }
 }

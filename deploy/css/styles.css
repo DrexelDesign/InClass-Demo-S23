@@ -521,7 +521,7 @@ footer > div #fm span {
 #about > div {
   grid-area: about;
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   #about > div {
     display: grid;
     grid-template-columns: 50% auto;
@@ -535,18 +535,26 @@ footer > div #fm span {
     margin-bottom: 0;
   }
 }
+#about > div aside #about-bg-img {
+  background-image: url("../img/about/about-left.jpg");
+  background-position: center bottom;
+  background-size: cover;
+  width: 100%;
+  padding-bottom: 100%;
+  border-radius: 100%;
+}
 @media (min-width: 768px) {
-  #about > div section {
+  #about > div #about-info {
     display: flex;
     align-items: center;
     padding-left: 136px;
   }
 }
-#about > div section h1 {
+#about > div #about-info h1 {
   margin-bottom: 16px;
 }
 @media (min-width: 1024px) {
-  #about > div section h1 {
+  #about > div #about-info h1 {
     margin-bottom: 24px;
   }
 }
