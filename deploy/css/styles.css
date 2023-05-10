@@ -427,14 +427,47 @@ html {
 nav {
   display: none;
 }
+@media (min-width: 1024px) {
+  nav {
+    display: block;
+  }
+}
+@media (min-width: 1024px) {
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
 nav ul li {
   text-align: right;
 }
+@media (min-width: 1024px) {
+  nav ul li {
+    margin-left: 16px;
+  }
+}
 nav ul li a:link, nav ul li a:visited {
+  font-family: "Roboto", sans-serif;
   display: inline-block;
   color: black;
   padding: 16px 0 16px;
   font-weight: 500;
+}
+@media (min-width: 1024px) {
+  nav ul li a:link, nav ul li a:visited {
+    padding: 24px 36px;
+    border: 1px solid var(--gray);
+    color: var(--gray);
+    border-radius: 6px;
+    transition: 0.25s;
+  }
+}
+@media (min-width: 1024px) {
+  nav ul li a:link:hover, nav ul li a:link:active, nav ul li a:visited:hover, nav ul li a:visited:active {
+    background-color: var(--gray);
+    color: var(--white);
+  }
 }
 
 /* =============
@@ -451,6 +484,11 @@ header {
   box-sizing: border-box;
   box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.3);
 }
+@media (min-width: 1024px) {
+  header {
+    grid-template-areas: "logo nav";
+  }
+}
 header #logo {
   grid-area: logo;
   display: flex;
@@ -461,6 +499,11 @@ header #burger-container {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+}
+@media (min-width: 1024px) {
+  header #burger-container {
+    display: none;
+  }
 }
 header #burger-container button {
   border: none;
@@ -571,6 +614,11 @@ footer > div #fm span {
     grid-template-columns: 12% auto 12%;
   }
 }
+@media (min-width: 1024px) {
+  #about {
+    scroll-margin-top: 110px;
+  }
+}
 @media (min-width: 1440px) {
   #about {
     grid-template-columns: auto 1440px auto;
@@ -645,6 +693,11 @@ footer > div #fm span {
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". partners .";
   text-align: center;
+}
+@media (min-width: 1024px) {
+  #partners {
+    scroll-margin-top: 110px;
+  }
 }
 @media (min-width: 1440px) {
   #partners {
@@ -740,6 +793,11 @@ footer > div #fm span {
 @media (min-width: 768px) {
   #requests {
     grid-template-columns: 12% auto 12%;
+  }
+}
+@media (min-width: 1024px) {
+  #requests {
+    scroll-margin-top: 110px;
   }
 }
 @media (min-width: 1200px) {

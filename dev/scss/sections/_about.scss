@@ -17,6 +17,10 @@
         grid-template-columns: 12% auto 12%;
     }
 
+    @include lg{
+        scroll-margin-top: 110px;
+    }
+
     @include xxl{
         grid-template-columns: auto 1440px auto;
     }

@@ -12,6 +12,10 @@
     grid-template-areas: ". partners .";
     text-align: center;
 
+    @include lg{
+        scroll-margin-top: 110px;
+    }
+
     @include xxl{
         grid-template-columns: auto 1440px auto;
     }
