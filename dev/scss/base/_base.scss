@@ -15,6 +15,10 @@ a{
     text-decoration: none;
 }
 
+.show-menu{
+    display: block !important;
+}
+
 .content-spacing{
     margin-top: 32px;
 
@@ -22,17 +26,6 @@ a{
         margin-top: 64px;
     }
 }
-
-// .header-footer-grid{
-//     display: grid;
-//     grid-template-columns: 16px auto 16px;
-//     grid-template-areas: ". header-footer .";
-
-//     >div{
-//         grid-area: header-footer;
-//     }
-// }
-
 
 .large-images{
     width: 100%;

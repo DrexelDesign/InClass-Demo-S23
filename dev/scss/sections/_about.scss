@@ -3,6 +3,9 @@
 ============= */
 
 #about{
+    //   this is the offset magic
+    scroll-margin-top: 90px;
+    //
     display: grid;
     grid-template-columns: var(--grid-margin-mobile) auto var(--grid-margin-mobile);
     grid-template-areas: ". about .";

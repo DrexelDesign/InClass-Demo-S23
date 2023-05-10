@@ -2,11 +2,14 @@
     Navigation
 ============= */
 
-nav{
-    ul{
-        display: none;
-        border: 1px solid red;
+html {
+    scroll-behavior: smooth;
+}
 
+nav{
+    // this makes the nav not show up on the mobile sizes
+    display: none;
+    ul{
         @include lg{
             display: block;
         }
@@ -14,7 +17,7 @@ nav{
         li{
             a:link, a:visited{
                 padding: 24px 36px;
-                border: 1px solid var(--gray);
+                // border: 1px solid var(--gray);
                 color: var(--gray);
                 border-radius: 6px;
                 transition: 0.25s;
