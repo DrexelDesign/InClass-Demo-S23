@@ -390,6 +390,11 @@ h1, h2, h3, h4, h5, p {
 /* =============
     Buttons
 ============= */
+button {
+  padding: 0;
+  margin: 0;
+}
+
 /* =============
     Forms
 ============= */
@@ -411,51 +416,60 @@ textarea {
 /* =============
     Navigation
 ============= */
-nav ul {
-  display: none;
-  border: 1px solid red;
+html {
+  scroll-behavior: smooth;
 }
-@media (min-width: 1024px) {
-  nav ul {
-    display: block;
-  }
+
+.show-menu {
+  display: block !important;
+}
+
+nav {
+  display: none;
+}
+nav ul li {
+  text-align: right;
 }
 nav ul li a:link, nav ul li a:visited {
-  padding: 24px 36px;
-  border: 1px solid var(--gray);
-  color: var(--gray);
-  border-radius: 6px;
-  transition: 0.25s;
-  font-family: "Roboto", sans-serif;
-}
-nav ul li a:link:hover, nav ul li a:link:active, nav ul li a:visited:hover, nav ul li a:visited:active {
-  background-color: var(--gray);
-  color: var(--white);
+  display: inline-block;
+  color: black;
+  padding: 16px 0 16px;
+  font-weight: 500;
 }
 
 /* =============
     Header
 ============= */
 header {
-  padding: 16px 0;
+  display: grid;
+  grid-template-columns: 50% auto;
+  grid-template-areas: "logo burger" "nav nav";
+  padding: 16px;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.3);
 }
-@media (min-width: 1440px) {
-  header {
-    padding: 24px 0;
-  }
-}
-header div {
+header #logo {
+  grid-area: logo;
   display: flex;
+  align-items: center;
 }
-header div button {
+header #burger-container {
+  grid-area: burger;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+header #burger-container button {
   border: none;
   background-color: transparent;
+  color: black;
+  font-size: 1.25rem;
 }
-header div nav {
-  margin-left: auto;
-}
-header div nav ul li a {
-  color: var(--gray);
+header nav {
+  grid-area: nav;
 }
 
 /* =============
@@ -546,6 +560,7 @@ footer > div #fm span {
     About
 ============= */
 #about {
+  scroll-margin-top: 90px;
   display: grid;
   grid-template-columns: var(--grid-margin-mobile) auto var(--grid-margin-mobile);
   grid-template-areas: ". about .";
@@ -625,6 +640,7 @@ footer > div #fm span {
     Partners
 ============= */
 #partners {
+  scroll-margin-top: 90px;
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". partners .";
@@ -715,6 +731,7 @@ footer > div #fm span {
     Requests
 ============= */
 #requests {
+  scroll-margin-top: 90px;
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". request .";

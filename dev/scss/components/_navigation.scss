@@ -1,29 +1,38 @@
 /* =============
     Navigation
 ============= */
+html{
+    scroll-behavior: smooth;
+}
+
+
+.show-menu{
+    display: block !important;
+}
 
 nav{
+    display: none;
     ul{
-        display: none;
-        border: 1px solid red;
-
-        @include lg{
-            display: block;
-        }
-
         li{
+            text-align: right;
             a:link, a:visited{
-                padding: 24px 36px;
-                border: 1px solid var(--gray);
-                color: var(--gray);
-                border-radius: 6px;
-                transition: 0.25s;
-                font-family: 'Roboto', sans-serif;
 
-                &:hover, &:active{
-                    background-color: var(--gray);
-                    color: var(--white);
-                }
+                display: inline-block;
+                color: black;
+                padding: 16px 0 16px;
+                font-weight: 500;
+
+                // padding: 24px 36px;
+                // border: 1px solid var(--gray);
+                // color: var(--gray);
+                // border-radius: 6px;
+                // transition: 0.25s;
+                // font-family: 'Roboto', sans-serif;
+
+                // &:hover, &:active{
+                //     background-color: var(--gray);
+                //     color: var(--white);
+                // }
             }
         }
     }
