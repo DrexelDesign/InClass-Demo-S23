@@ -9,19 +9,35 @@ html {
 nav{
     // this makes the nav not show up on the mobile sizes
     display: none;
+
+    @include md{
+         // this makes the nav not show up on the desktop sizes
+        display: block !important;
+    }
+
     ul{
-        @include lg{
-            display: block;
+        @include md{
+            display: flex;
+            justify-content: flex-end;
         }
 
         li{
+
+            @include md{
+                margin-left: 16px;
+            }
             a:link, a:visited{
-                padding: 24px 36px;
-                // border: 1px solid var(--gray);
-                color: var(--gray);
+                padding: 16px 0;
+               
+                color: black;
                 border-radius: 6px;
                 transition: 0.25s;
                 font-family: 'Roboto', sans-serif;
+
+                @include md{
+                     border: 1px solid var(--gray);
+                     padding: 16px;
+                }
 
                 &:hover, &:active{
                     background-color: var(--gray);
