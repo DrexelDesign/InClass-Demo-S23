@@ -20,12 +20,10 @@ header{
         "logo nav";
     }
 
-    @include xxl{
-        // padding: 24px 0;
-    }
-
     #logo{
         grid-area: logo;
+        display: flex;
+        align-items: center;
     }
     #burger-container{
         grid-area: burger;

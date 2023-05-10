@@ -483,6 +483,8 @@ header {
 }
 header #logo {
   grid-area: logo;
+  display: flex;
+  align-items: center;
 }
 header #burger-container {
   grid-area: burger;
