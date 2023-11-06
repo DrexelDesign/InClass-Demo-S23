@@ -7,7 +7,7 @@
       "uuidString" : "2F66EE1A-F279-4304-A82B-AC408D0A71EE"
     }
   ],
-  "creatorBuild" : "34484",
+  "creatorBuild" : "34518",
   "files" : {
     "\/Assets\/about-left.jpg" : {
       "ft" : 16384,
@@ -1540,9 +1540,6 @@
       "no-return-assign" : {
         "active" : 0,
         "optionString" : "'except-parens'"
-      },
-      "no-return-await" : {
-        "active" : 0
       },
       "no-script-url" : {
         "active" : 0
